@@ -13,7 +13,7 @@ Sistema de gestão de estoque e vendas para panificadoras e comércios (projeto 
 ```bash
 npm install
 npm start               # http://localhost:3000
-npm test                # 19 testes automatizados da API (cenários do Apêndice F)
+npm test                # 19 testes automatizados da API (16 dos cenários do Apêndice F + 3 da Etapa 2)
 ```
 
 Os testes usam um banco separado, `gestfast_test`, que é apagado e recriado a cada execução (o banco
