@@ -1,4 +1,5 @@
-// Testes de API baseados nos cenários BDD do Apêndice F do relatório.  Execução: npm test
+// Testes de API: 16 baseados nos cenários BDD do Apêndice F do relatório e 3 da Etapa 2
+// (alerta de validade, perdas/sobras e relatório de desperdício).  Execução: npm test
 // Rodam num banco MySQL separado (gestfast_test), recriado do zero a cada execução.
 // O MySQL e a senha vêm do .env (mesmo servidor do sistema); o banco "gestfast" não é tocado.
 const os = require('os');
