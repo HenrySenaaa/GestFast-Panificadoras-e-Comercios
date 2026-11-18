@@ -1,6 +1,6 @@
-# GestFast ERP
+# GestFast - Solução de Panificadoras e Comércios
 
-Sistema de gestão de estoque e vendas para panificadoras (projeto USCS - ADS). Back-end em Node.js (módulo `http`) com banco **MySQL 8**, e front-end em HTML/CSS/JS puro.
+Sistema de gestão de estoque e vendas para panificadoras e comércios (projeto USCS - ADS). Back-end em Node.js (módulo `http`) com banco **MySQL 8**, e front-end em HTML/CSS/JS puro.
 
 ## Como executar
 
@@ -13,7 +13,7 @@ Sistema de gestão de estoque e vendas para panificadoras (projeto USCS - ADS). 
 ```bash
 npm install
 npm start               # http://localhost:3000
-npm test                # 16 testes automatizados da API (cenários do Apêndice F)
+npm test                # 19 testes automatizados da API (cenários do Apêndice F)
 ```
 
 Os testes usam um banco separado, `gestfast_test`, que é apagado e recriado a cada execução (o banco
